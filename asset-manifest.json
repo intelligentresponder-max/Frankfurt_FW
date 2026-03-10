@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Frankfurt_FW/static/css/main.e6c13ad2.css",
+    "main.js": "/Frankfurt_FW/static/js/main.2d076da2.js",
+    "static/js/453.825386d9.chunk.js": "/Frankfurt_FW/static/js/453.825386d9.chunk.js",
+    "index.html": "/Frankfurt_FW/index.html",
+    "main.e6c13ad2.css.map": "/Frankfurt_FW/static/css/main.e6c13ad2.css.map",
+    "main.2d076da2.js.map": "/Frankfurt_FW/static/js/main.2d076da2.js.map",
+    "453.825386d9.chunk.js.map": "/Frankfurt_FW/static/js/453.825386d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.2d076da2.js"
+  ]
+}
