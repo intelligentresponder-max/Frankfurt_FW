@@ -468,41 +468,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15
   line-height: 2;
 }
 
-/* ── COUNTDOWN ── */
-.countdown-banner {
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  background: var(--bg2);
-  border: 1px solid rgba(255,214,0,0.25);
-  border-radius: 10px;
-  padding: 12px 22px;
-  margin-bottom: 28px;
-}
-.countdown-label {
-  font-family: var(--mono);
-  font-size: 0.65rem;
-  letter-spacing: 2px;
-  color: var(--muted);
-  text-transform: uppercase;
-}
-.countdown-days {
-  font-family: var(--mono);
-  font-size: 2rem;
-  font-weight: 700;
-  color: var(--yellow);
-  line-height: 1;
-}
-.countdown-event {
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  color: var(--text);
-  margin-top: 3px;
-}
-.countdown-done {
-  color: var(--green);
-}
-
 /* ── ANIMATIONS ── */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(14px); }
@@ -522,16 +487,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15
   <div class="hero-badge">Für Energieberater in Deutschland</div>
   <h1>Partnerfirmen &amp; Sparrechner<br><span>pro Postleitzahl</span></h1>
   <p>Finden Sie Telefon-Partnerfirmen, regionale Energielieferanten und berechnen Sie die Kostenersparnis für Ihre Kunden – alles nach PLZ.</p>
-  <div class="countdown-banner" id="countdown-banner">
-    <div>
-      <div class="countdown-label">Kommunalwahl Frankfurt</div>
-      <div class="countdown-event">15. März 2026</div>
-    </div>
-    <div id="countdown-days" class="countdown-days">–</div>
-    <div>
-      <div class="countdown-label" id="countdown-unit">Tage</div>
-    </div>
-  </div>
 </div>
 
 <!-- ═══════════════════════ NAV ═══════════════════════ -->
@@ -943,30 +898,6 @@ function emptyState() {
 // INIT
 render();
 document.getElementById('plz').focus();
-
-// ── COUNTDOWN ──
-(function() {
-  const election = new Date('2026-03-15T00:00:00');
-  const daysEl   = document.getElementById('countdown-days');
-  const unitEl   = document.getElementById('countdown-unit');
-
-  function update() {
-    const now  = new Date();
-    const diff = election - now;
-    if (diff <= 0) {
-      daysEl.textContent = '✓';
-      daysEl.classList.add('countdown-done');
-      unitEl.textContent = 'Heute / vorbei';
-    } else {
-      const days = Math.ceil(diff / 86400000);
-      daysEl.textContent = days;
-      unitEl.textContent = days === 1 ? 'Tag' : 'Tage';
-    }
-  }
-
-  update();
-  setInterval(update, 60000);
-})();
 </script>
 </body>
 </html>
