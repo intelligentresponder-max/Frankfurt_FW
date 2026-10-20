@@ -1,0 +1,50 @@
+[
+  {
+    "frage": "Wie viele Stimmen braucht die neue Quorumsfunktion für Vorhaben auf ffm.de, damit der Magistrat über eine Ausweitung der Beteiligung entscheidet?",
+    "antworten": [
+      "100 Stimmen in 30 Tagen",
+      "400 Stimmen in 55 Tagen",
+      "1.000 Stimmen in 90 Tagen"
+    ],
+    "richtig": 1,
+    "erklaerung": "Innerhalb von 55 Tagen nach Veröffentlichung eines Vorhabens sind 400 Stimmen nötig.",
+    "quelle_url": "https://www.ffm.de/de/aktuelles/63-neue-quorumsfunktion",
+    "stand": "2026-10-20"
+  },
+  {
+    "frage": "Wer darf bei der Quorumsfunktion für Vorhaben abstimmen?",
+    "antworten": [
+      "Alle Besucher der Webseite",
+      "Nur Parteimitglieder",
+      "Personen mit Meldeadresse in Frankfurt"
+    ],
+    "richtig": 2,
+    "erklaerung": "Abstimmen dürfen in Frankfurt gemeldete Personen (Name, Adresse, Geburtsdatum, kurzer Begründungstext).",
+    "quelle_url": "https://www.ffm.de/de/aktuelles/63-neue-quorumsfunktion",
+    "stand": "2026-10-20"
+  },
+  {
+    "frage": "Wie können Ortsbeiräte eine Ausweitung der Öffentlichkeitsbeteiligung bei der Stabsstelle Bürger:innenbeteiligung beantragen?",
+    "antworten": [
+      "Nur mit 400 gesammelten Stimmen",
+      "Ohne Quorum",
+      "Nur über eine Petition an den Bundestag"
+    ],
+    "richtig": 1,
+    "erklaerung": "Ortsbeiräte, KAV und Jugendhilfeausschuss können die Ausweitung ohne Quorum beantragen.",
+    "quelle_url": "https://www.ffm.de/de/aktuelles/63-neue-quorumsfunktion",
+    "stand": "2026-10-20"
+  },
+  {
+    "frage": "Wo kannst du laut Stadt Frankfurt auch Barrierefreiheits-Mängel melden?",
+    "antworten": [
+      "Im Mängelmelder auf ffm.de",
+      "Nur per Brief an den Magistrat",
+      "Nur im Ortsbeirat"
+    ],
+    "richtig": 0,
+    "erklaerung": "Barrierefreiheit ist laut Stadt direkt im Mängelmelder erfassbar (auch per App „FFM.de“).",
+    "quelle_url": "https://www.ffm.de/de/maengelmelder",
+    "stand": "2026-10-20"
+  }
+]
