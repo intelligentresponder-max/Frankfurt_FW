@@ -1,7 +1,11 @@
 # CHANGELOG
 
+## 2026-10-20 – 0.3.1
+- Workflow `buergerplattform-pages.yml` wieder entfernt (beruhte auf falscher Annahme, Pages liefert von `main`).
+- README: Abschnitt „Veröffentlichung“ korrigiert.
+
 ## 2026-10-20 – 0.3.0
-- Workflow `buergerplattform-pages.yml` (manuell) veröffentlicht nach `gh-pages:/buergerplattform/`.
+- Workflow `buergerplattform-pages.yml` (in 0.3.1 wieder entfernt).
 - `noindex` auf der Startseite bis zum Livegang.
 
 ## 2026-10-20 – 0.2.0
