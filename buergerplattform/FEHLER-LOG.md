@@ -18,3 +18,9 @@ Siehe Teil 0 der Vorlage: 16 Fehler (zerstörtes JS, falsche Markenfarbe, simuli
 - **Tailwind-CDN in der Sandbox blockiert** (`ERR_TUNNEL_CONNECTION_FAILED`, Folgefehler „tailwind is not defined“ durch das Config-Skript) · Ursache: Sandbox-Proxy, kein Seitenfehler · Folge: Optik, Kontrast und Lighthouse hier **nicht** geprüft · TODO im README. Empfehlung: Tailwind-Build per CLI (kein externer Abruf, Datenschutz besser).
 - **Alle Positionstexte `freigegeben: false`** · gewollt (Vorstandsfreigabe fehlt) · Folge: Blog zeigt Leerzustand. Test mit abgefangener JSON-Antwort (alle `true`) zeigte 5 Karten; die Datei selbst wurde nicht verändert.
 - **Quiz-Fragen** · ohne Netzzugang keine neuen Fakten prüfbar · Fix: ausschließlich Fakten aus dem geprüften Teil 5 (Quorum, Mängelmelder) verwendet, jeweils mit Quelle. Echte „Bürgerrechte“-Fragen später ergänzen.
+
+## Umstellung Tailwind-Build (20.10.2026)
+- **Tailwind-CDN (Teil 2 der Vorlage)** · Symptom: Besucher-IP ging an Dritte, in der Sandbox war die Seite ungestylt testbar nicht · Ursache: Play-CDN zur Laufzeit · Fix: lokaler Build, `assets/tailwind.css` eingecheckt · Lehre: Das Play-CDN ist laut Tailwind nicht für Produktion gedacht; Build von Anfang an einplanen.
+- **Stolperstein beim Build:** Dynamisch erzeugte Klassen (in `app.js`) werden nur gefunden, wenn `app.js` in `content` der `tailwind.config.js` steht, und nur als vollständige Strings (keine zusammengesetzten Klassennamen). Nach Klassenänderungen CSS neu bauen, sonst fehlen Stile in der Produktion.
+- **Platzhaltertext zu hell** · Tailwind-Standard (gray-400) ≈ 2,5:1 · Fix: `#6b7280` (4,8:1) in `src/input.css`.
+- **npm audit (7 Funde)** · nur Dev-Abhängigkeiten des Build-Werkzeugs, `--omit=dev`: 0 Funde · bewusst nicht per `audit fix --force` behoben, das würde Tailwind über die gepinnte Version heben.

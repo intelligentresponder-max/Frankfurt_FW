@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+input::placeholder, textarea::placeholder { color: #6b7280; opacity: 1; } /* 4,8:1 auf Weiß */

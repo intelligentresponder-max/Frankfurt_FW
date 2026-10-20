@@ -13,9 +13,7 @@ Diese Seite wird über **[PFLICHTANGABE: Hosting-Anbieter prüfen, z. B. GitHub 
 
 ## Externe Inhalte
 
-Die Seite lädt das Stylingwerkzeug Tailwind CSS von cdn.tailwindcss.com. Dabei wird deine IP-Adresse an den Betreiber dieses Servers übertragen. **[PFLICHTANGABE: prüfen; empfohlen ist, vor Livegang auf einen selbst gehosteten Tailwind-Build umzustellen, dann entfällt dieser Abschnitt]**
-
-Wir setzen keine Cookies, kein Tracking und keine externen Schriftarten ein.
+Diese Seite lädt keine Skripte, Schriftarten oder Stylesheets von Drittanbietern. Alle Dateien kommen vom eigenen Hosting. Wir setzen keine Cookies und kein Tracking ein. Links zu ffm.de und anderen Seiten öffnen erst nach deinem Klick.
 
 ## Kontaktaufnahme per E-Mail
 
