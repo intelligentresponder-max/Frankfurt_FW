@@ -24,3 +24,9 @@ Siehe Teil 0 der Vorlage: 16 Fehler (zerstörtes JS, falsche Markenfarbe, simuli
 - **Stolperstein beim Build:** Dynamisch erzeugte Klassen (in `app.js`) werden nur gefunden, wenn `app.js` in `content` der `tailwind.config.js` steht, und nur als vollständige Strings (keine zusammengesetzten Klassennamen). Nach Klassenänderungen CSS neu bauen, sonst fehlen Stile in der Produktion.
 - **Platzhaltertext zu hell** · Tailwind-Standard (gray-400) ≈ 2,5:1 · Fix: `#6b7280` (4,8:1) in `src/input.css`.
 - **npm audit (7 Funde)** · nur Dev-Abhängigkeiten des Build-Werkzeugs, `--omit=dev`: 0 Funde · bewusst nicht per `audit fix --force` behoben, das würde Tailwind über die gepinnte Version heben.
+
+## Pages-Einrichtung (20.10.2026)
+- **Falle: Pages-Quelle „GitHub Actions“ hätte die bestehende Seite ersetzt.** Auf `gh-pages` liegt bereits eine React-Seite. Ein Wechsel der Pages-Quelle oder ein Deploy des ganzen Ordners hätte sie überschrieben · Fix: Workflow schreibt nur nach `gh-pages:/buergerplattform/`.
+- **Falle: `npm run deploy` (gh-pages-Paket) leert `gh-pages`** und löscht damit die Bürgerplattform · im README vermerkt; Workflow danach erneut starten.
+- **Automatisches Veröffentlichen bewusst vermieden:** Impressum/Datenschutz sind Entwürfe, Positionen nicht freigegeben. Ein Push-Trigger würde unfertige Inhalte öffentlich machen · Workflow nur per `workflow_dispatch`, Startseite mit `noindex`.
+- **Nicht getestet:** Der Workflow lief noch nie (kein Actions-Zugriff aus der Sandbox). Erster Lauf ist der Test; Fehler hier eintragen.
