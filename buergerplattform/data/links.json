@@ -1,0 +1,61 @@
+{
+  "stand": "2026-10-20",
+  "hinweis": "ffm.de blockt automatische Abrufe (HTTP 403). Diese Links nur im Browser prüfen.",
+  "links": {
+    "ffm_start": {
+      "url": "https://www.ffm.de/de",
+      "status": "bestätigt (Browser)",
+      "stand": "2026-10-20"
+    },
+    "maengelmelder": {
+      "url": "https://www.ffm.de/de/maengelmelder",
+      "status": "bestätigt (Browser)",
+      "stand": "2026-10-20"
+    },
+    "maengelmelder_create": {
+      "url": "https://www.ffm.de/de/maengelmelder/create",
+      "status": "bestätigt (Browser); ohne ?step verlinken",
+      "stand": "2026-10-20"
+    },
+    "beteiligen": {
+      "url": "https://www.ffm.de/de/beteiligen",
+      "status": "bestätigt (Browser)",
+      "stand": "2026-10-20"
+    },
+    "ideenplattform": {
+      "url": "https://www.ffm.de/de/ideenplattform",
+      "status": "bestätigt (Browser)",
+      "stand": "2026-10-20"
+    },
+    "beispiel_projekt": {
+      "url": "https://www.ffm.de/de/waldspielpark-scheerwald",
+      "status": "bestätigt; Projekte enden, regelmäßig prüfen",
+      "stand": "2026-10-20",
+      "beispiel": true
+    },
+    "quorum_artikel": {
+      "url": "https://www.ffm.de/de/aktuelles/63-neue-quorumsfunktion",
+      "status": "bestätigt (veröffentlicht 10.08.2026)",
+      "stand": "2026-10-20"
+    },
+    "parlis": {
+      "url": "https://www.stvv.frankfurt.de/parlis",
+      "status": "bestätigt (offizielle Anleitung der StVV)",
+      "stand": "2026-10-20"
+    },
+    "wahlprogramm": {
+      "url": "https://freiewaehler-frankfurt.de/wahlprogramm/",
+      "status": "bestätigt",
+      "stand": "2026-10-20"
+    },
+    "fw_startseite": {
+      "url": "https://www.freiewaehler-frankfurt.de",
+      "status": "bestätigt",
+      "stand": "2026-10-20"
+    }
+  },
+  "kontakt_email": "geschaeftsstelle@freiewaehler-frankfurt.de",
+  "nicht_verwenden": [
+    "ortsbeiraete@stadt-frankfurt.de (nur für Anträge von Ortsbeiratsmitgliedern, kein Bürgerkontakt)"
+  ]
+}

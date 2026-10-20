@@ -1,0 +1,52 @@
+[
+  {
+    "id": "bildung-chancengleichheit",
+    "kategorie": "bildung",
+    "titel": "Chancengleichheit von Anfang an",
+    "teaser": "Wir wollen ausreichend Kita-Plätze und die Beitragsbefreiung im Frankfurter Stadtgebiet sichern, ab dem ersten Lebensjahr mit mehr Fachkräften und kleineren Gruppen. Dazu: besseres Ganztagsangebot auch in den Randzeiten und systematische Sprachförderung vor Schulbeginn.",
+    "quelle": "Kommunalwahlprogramm 2026, Kap. 3",
+    "quelle_url": "https://freiewaehler-frankfurt.de/wahlprogramm/",
+    "stand": "2026-10-20",
+    "freigegeben": false
+  },
+  {
+    "id": "mobilitaet-freie-wahl",
+    "kategorie": "mobilitaet",
+    "titel": "Freie Wahl der Verkehrsmittel",
+    "teaser": "Keine City-Maut in Frankfurt, Kapazität der Hauptverkehrsachsen sichern und weitere Fahrspurreduzierungen vermeiden, Park & Ride am Stadtrand ausbauen und Pendler auf den ÖPNV umlenken.",
+    "quelle": "Kommunalwahlprogramm 2026, Kap. 5",
+    "quelle_url": "https://freiewaehler-frankfurt.de/wahlprogramm/",
+    "stand": "2026-10-20",
+    "freigegeben": false
+  },
+  {
+    "id": "wohnen-aktivieren",
+    "kategorie": "wohnen",
+    "titel": "Aktivieren vor Sanktionieren",
+    "teaser": "Leerstand erfassen und schnell wieder nutzbar machen, Aufstockung und Umnutzung bestehender Gebäude erleichtern, Gewerbeflächen leichter in Wohnraum umwandeln. Bezahlbares Wohnen auch über eine Anpassung des Hebesatzes der Grundsteuer B.",
+    "quelle": "Kommunalwahlprogramm 2026, Kap. 6 und 1",
+    "quelle_url": "https://freiewaehler-frankfurt.de/wahlprogramm/",
+    "stand": "2026-10-20",
+    "freigegeben": false
+  },
+  {
+    "id": "wirtschaft-schlanke-verwaltung",
+    "kategorie": "wirtschaft",
+    "titel": "Schlanke Stadtverwaltung",
+    "teaser": "Acht statt zwölf Dezernate, für klare Zuständigkeiten, schnellere Entscheidungen und spürbare Kosteneinsparungen. Keine Erhöhung des Gewerbesteuer-Hebesatzes, Stärkung von Mittelstand und Handwerk.",
+    "quelle": "Kommunalwahlprogramm 2026, Grundsätze und Kap. 1",
+    "quelle_url": "https://freiewaehler-frankfurt.de/wahlprogramm/",
+    "stand": "2026-10-20",
+    "freigegeben": false
+  },
+  {
+    "id": "sicherheit-alle-stadtteile",
+    "kategorie": "sicherheit",
+    "titel": "Sicherheit in allen Stadtteilen",
+    "teaser": "Nicht nur im Bahnhofsviertel: mehr Personal und moderne Ausstattung für Stadtpolizei und Ordnungsbehörden, hoher Kontrolldruck an Kriminalitätsschwerpunkten. Erhalt der kommunalen Krankenhäuser und Kliniken, keine weiteren Privatisierungen oder Schließungen von Notaufnahmen.",
+    "quelle": "Kommunalwahlprogramm 2026, Kap. 2 und 7",
+    "quelle_url": "https://freiewaehler-frankfurt.de/wahlprogramm/",
+    "stand": "2026-10-20",
+    "freigegeben": false
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "quelle": "freiewaehler-frankfurt.de; Stadtteile für OBR 10 laut Niederschrift",
+  "stand": "2026-10-20",
+  "eintraege": [
+    {
+      "nummer": 1,
+      "name": "Innenstadt I",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 2,
+      "name": "Innenstadt II",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 3,
+      "name": "Innenstadt III",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 4,
+      "name": "Bornheim/Ostend",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 5,
+      "name": "Süd",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 6,
+      "name": "West",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 7,
+      "name": "Mitte-West",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 8,
+      "name": "Nord-West",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 9,
+      "name": "Mitte-Nord",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 10,
+      "name": "Nord-Ost",
+      "stadtteile": [
+        "Berkersheim",
+        "Bonames",
+        "Eckenheim",
+        "Frankfurter Berg",
+        "Preungesheim"
+      ],
+      "verifiziert": false
+    },
+    {
+      "nummer": 11,
+      "name": "Ost",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 12,
+      "name": "Kalbach/Riedberg",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 13,
+      "name": "Nieder-Erlenbach",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 14,
+      "name": "Harheim",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 15,
+      "name": "Nieder-Eschbach",
+      "stadtteile": [],
+      "verifiziert": false
+    },
+    {
+      "nummer": 16,
+      "name": "Bergen-Enkheim",
+      "stadtteile": [],
+      "verifiziert": false
+    }
+  ]
+}

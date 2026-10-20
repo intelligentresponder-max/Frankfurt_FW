@@ -1,0 +1,15 @@
+{
+  "stand": "2026-10-20",
+  "hinweis": "Termine nur aus PARLIS übernehmen. Maßgeblich ist PARLIS.",
+  "sitzungen": [
+    {
+      "ortsbeirat": 0,
+      "datum": "2099-01-01",
+      "uhrzeit": "19:30",
+      "ort": "Beispielort",
+      "parlis_url": "https://www.stvv.frankfurt.de/parlis",
+      "stand": "2026-10-20",
+      "beispiel": true
+    }
+  ]
+}
